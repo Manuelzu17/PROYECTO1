@@ -25,3 +25,4 @@ devuelve_ciudades=devuelve_ciudades("Madrid","Barcelona","Bilbao","Valencia")
 
 print(next(devuelve_ciudades))
 print(next(devuelve_ciudades))
+print(next(devuelve_ciudades))
