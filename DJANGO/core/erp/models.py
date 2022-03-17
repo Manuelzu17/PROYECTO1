@@ -14,7 +14,7 @@ class Type(models.Model):
     name = models.CharField(max_length=150, verbose_name='Nombres', unique=True)
 
     def __str__(self):
-        return self.name
+        return str(self.id)
 
     #dedicarle ciertas propiedades a la entidad
     class Meta:

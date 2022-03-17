@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+    <meta charset='UTD-8'>
+    <title>{{title}}BIENVENIDOS A MI PAGINA</tittle>
+</head>
+<body>
+
+
+<ul>
+
+
+    {% for category in categories%}
+    
+    <li>{{category.id}} / {{categories.name}}</li>
+    
+    {% endfor %}
+
+<ul/>
+<p>{{name}}</p>
+</body>
+</html>
