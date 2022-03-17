@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #apps
+    'core.erp'
 ]
 
 MIDDLEWARE = [
@@ -74,9 +76,14 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db1.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'DJANGO',
+        'USER': 'root',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
