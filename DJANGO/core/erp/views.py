@@ -6,6 +6,7 @@ from django.shortcuts import render
 from django.template import Template, Context
 from core.erp.models import *
 
+
 # Create your views here.
 
 def myfirstview(request):
